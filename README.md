@@ -105,9 +105,11 @@ TensorFlow 설치 중 용량이 부족할 경우, 가상 머신의 하드디스�
 
 #### **가상 머신 하드디스크 용량 재설정**
 <img width="653" height="599" alt="가상환경 용량늘리기_1" src="https://github.com/user-attachments/assets/fa7cfd64-0560-47d6-a5da-c2715cfe0365" />
+
 1.  가상 머신을 **종료**한 후, VMware 메뉴에서 \*\*`VM` \> `Settings...`\*\*로 이동합니다.
 
 <img width="759" height="738" alt="가상환경용량늘리기_2" src="https://github.com/user-attachments/assets/65d9e161-6f6b-4d93-894f-7232a0ff7c66" />
+
 2.  `Hard Disk (SCSI)`를 선택하고, `Expand...` 버튼을 클릭합니다.
 3.  `Maximum disk size (GB)`를 원하는 용량으로 설정하고 `Expand`를 클릭합니다.
 
@@ -126,9 +128,11 @@ TensorFlow 설치 중 용량이 부족할 경우, 가상 머신의 하드디스�
     ```
 
 <img width="781" height="622" alt="가상환경 용량늘리기_3" src="https://github.com/user-attachments/assets/3ad5de17-8544-4b27-acec-fcc839301b39" />
+
 3.  파티션 목록에서 용량을 확장할 파티션(보통 `/`가 마운트된 파티션)을 우클릭하고 \*\*`Resize/Move`\*\*를 선택합니다.
 
 <img width="776" height="534" alt="가상환경용량늘리기_4" src="https://github.com/user-attachments/assets/40836c35-4c75-4de2-8612-1d3b369b6459" />
+
 4.  \*\*`New size`\*\*를 최대로 설정하고 `Resize`를 클릭한 뒤, 상단의 **초록색 체크표시**를 눌러 변경사항을 적용합니다.
 
 -----
